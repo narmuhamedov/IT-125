@@ -15,6 +15,13 @@ emails_list = list(emails)
 colors = re.findall(r'#(?:[0-9a-fA-F]{6})', text)
 print(colors)
 
+"""
+Статья по регулярным выражениям на Habr:
+
+ TODO  https://habr.com/ru/articles/349860/
+
+Этот код извлекает email-адреса из файла с помощью регулярных выражений.
+"""
 
 
 print(emails_list[1])
